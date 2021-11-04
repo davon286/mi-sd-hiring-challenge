@@ -1,0 +1,37 @@
+/* Puts all of the content in the body in Arial text */
+
+body {
+  font-family: Arial;
+}
+
+/* Aligns the header in the center */
+.header {
+  text-align: center;
+}
+
+/* Makes the high temp bold */
+
+.high-temp {
+  font-weight: bold;
+}
+
+/* Cover the titles in each display and makes changes */
+
+.display h3 {
+  color: white;
+  padding: 5px 80px;
+  margin: 4px 0px;
+  background-color: rgb(19, 123, 172);
+}
+
+/* Brings all of the content besides the header to the center */
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adds space in between each display */
+.display {
+  margin: 5px;
+}
